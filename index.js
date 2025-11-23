@@ -6,6 +6,7 @@ telegraf -> Telegram bot core
 */
 require("dotenv").config();
 
+const bot = new Telegraf(process.env.BOT_TOKEN);
 const express = require("express");
 
 const app = express();
@@ -20,7 +21,6 @@ app.listen(PORT, () => {
 
 const { Telegraf } = require("telegraf");
 const { scrapeJobs, detectNewJobs } = require("./scrapers/allJobs");
-const bot = new Telegraf(process.env.BOT_TOKEN);
 const REDSYS_TEST_TOKEN = process.env.REDSYS_TEST_TOKEN;
 const { saveUserPreferences, getUser } = require("./scrapers/users");
 const { matchJobWithUser } = require("./scrapers/matcher");
