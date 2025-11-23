@@ -5,6 +5,19 @@ node-cron -> run scheduled background scanning
 telegraf -> Telegram bot core
 */
 require("dotenv").config();
+
+const express = require("express");
+const path = require("path");
+
+const app = express();
+app.use(express.static(path.join(__dirname, "../scrapers/test-pages")));
+
+const PORT = 3001;
+
+app.listen(PORT, () => {
+  console.log(`Local job server running at http://localhost:${PORT}`);
+});
+
 const { Telegraf } = require("telegraf");
 const { scrapeJobs, detectNewJobs } = require("./scrapers/allJobs");
 const bot = new Telegraf(process.env.BOT_TOKEN);
