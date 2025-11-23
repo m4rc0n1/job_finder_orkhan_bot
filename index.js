@@ -209,12 +209,7 @@ bot.on("text", (ctx) => {
 
 if (process.env.NODE_ENV === "production") {
   bot.telegram.setWebhook(`${process.env.WEBHOOK_URL}/webhook`);
-  bot.launch({
-    webhook: {
-      domain: process.env.WEBHOOK_URL,
-      port: process.env.PORT || 3000,
-    },
-  });
+
   console.log("BOT RUNNING in WEBHOOK mode");
 } else {
   bot.launch();
