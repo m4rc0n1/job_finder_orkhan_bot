@@ -7,12 +7,12 @@ telegraf -> Telegram bot core
 require("dotenv").config();
 
 const express = require("express");
-const path = require("path");
 
 const app = express();
 app.use(express.static("public"));
+app.use(bot.webhookCallback("/webhook"));
 
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 
 app.listen(PORT, () => {
   console.log(`Local job server running at http://localhost:${PORT}`);
@@ -208,6 +208,7 @@ bot.on("text", (ctx) => {
 });
 
 if (process.env.NODE_ENV === "production") {
+  bot.telegram.setWebhook(`${process.env.WEBHOOK_URL}/webhook`);
   bot.launch({
     webhook: {
       domain: process.env.WEBHOOK_URL,
