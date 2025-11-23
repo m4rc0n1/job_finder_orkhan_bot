@@ -1,11 +1,13 @@
+require("dotenv").config();
 const cron = require("node-cron");
 const { scrapeJobs } = require("../scrapers/allJobs");
 const { loadUsers } = require("../scrapers/users");
 const { matchJobWithUser } = require("../scrapers/matcher");
 const { loadSeenJobs, saveSeenJobs } = require("../scrapers/seenJobs");
 const { isPremium } = require("../scrapers/premium");
+const { Telegraf } = require("telegraf");
 
-const { bot } = require("../index");
+const bot = new Telegraf(process.env.BOT_TOKEN);
 
 async function detectNewJobs() {
   const jobs = await scrapeJobs();
