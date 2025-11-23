@@ -1,0 +1,13 @@
+We will:
+
+switch scraping to Axios + Cheerio
+
+run a local Express server to serve HTML pages
+
+polish our job matching logic
+
+improve UX and scheduler
+
+fix duplicates and spam
+
+AND… we’ll implement a real Telegram payment flow using Stripe in test mode.

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "1",
+    "title": "Frontend Developer",
+    "company": "Google",
+    "location": "Baku",
+    "link": "https://company.com/job-1",
+    "salary": "2000",
+    "seniority": "Mid-level",
+    "description": "Work on UI components with React.",
+    "tags": [
+      "javascript",
+      "react",
+      "frontend"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Backend Developer",
+    "company": "Amazon",
+    "location": "Warsaw",
+    "link": "https://company.com/job-2",
+    "salary": "3000",
+    "seniority": "Senior",
+    "description": "Build scalable backend services.",
+    "tags": [
+      "node",
+      "aws",
+      "backend"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Fullstack Engineer",
+    "company": "Netflix",
+    "location": "Berlin",
+    "link": "https://company.com/job-3",
+    "salary": "3500",
+    "seniority": "Junior",
+    "description": "Maintain API and frontend UI.",
+    "tags": [
+      "fullstack",
+      "react",
+      "node"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "DevOps Engineer",
+    "company": "Microsoft",
+    "location": "London",
+    "link": "https://company.com/job-4",
+    "salary": "4500",
+    "seniority": "Mid-level",
+    "description": "Manage CI/CD pipelines.",
+    "tags": [
+      "devops",
+      "aws",
+      "ci/cd"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "QA Automation Engineer",
+    "company": "Tesla",
+    "location": "Austin",
+    "link": "https://company.com/job-5",
+    "salary": "4000",
+    "seniority": "Senior",
+    "description": "Build automation frameworks.",
+    "tags": [
+      "qa",
+      "selenium",
+      "automation"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "UI/UX Designer",
+    "company": "Figma",
+    "location": "Remote",
+    "link": "https://company.com/job-6",
+    "salary": "3200",
+    "seniority": "Junior",
+    "description": "Design user-friendly interfaces.",
+    "tags": [
+      "ui",
+      "ux",
+      "figma"
+    ]
+  },
+  {
+    "id": "7",
+    "title": "UI/UX Designer Intern",
+    "company": "Figma",
+    "location": "Remote",
+    "link": "https://company.com/job-6",
+    "salary": "3200",
+    "seniority": "Junior",
+    "description": "Design user-friendly interfaces.",
+    "tags": [
+      "ui",
+      "ux",
+      "figma"
+    ]
+  }
+]
