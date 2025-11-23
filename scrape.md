@@ -14,3 +14,15 @@
 ❌ 5. Websites without written permission
 
 If Terms of Service say scraping is not allowed → DO NOT use them.
+
+              ┌──────────────────┐
+              │  Render (FREE)   │
+              │  Bot + Webhook   │
+              └───────▲──────────┘
+                      │
+                      │ bot.telegram.sendMessage()
+                      │
+              ┌───────┴──────────┐
+              │ Railway (FREE)    │
+              │ Cron Scheduler    │
+              └───────────────────┘

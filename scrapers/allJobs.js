@@ -4,16 +4,23 @@ const cheerio = require("cheerio");
 const path = require("path");
 
 async function scrapeJobs() {
+  const BASE = process.env.RENDER_BASE_URL || "http://localhost:3001";
   //   const pages = [
   //     path.join(__dirname, "test-pages", "jobs-page-1.html"),
   //     path.join(__dirname, "test-pages", "jobs-page-2.html"),
   //     path.join(__dirname, "test-pages", "jobs-page-3.html"),
   //   ];
 
+  //   const pages = [
+  //     "http://localhost:3001/jobs-page-1.html",
+  //     "http://localhost:3001/jobs-page-2.html",
+  //     "http://localhost:3001/jobs-page-3.html",
+  //   ];
+
   const pages = [
-    "http://localhost:3001/jobs-page-1.html",
-    "http://localhost:3001/jobs-page-2.html",
-    "http://localhost:3001/jobs-page-3.html",
+    `${BASE}/jobs-page-1.html`,
+    `${BASE}/jobs-page-2.html`,
+    `${BASE}/jobs-page-3.html`,
   ];
 
   let allResults = [];
