@@ -7,7 +7,7 @@ const { loadSeenJobs, saveSeenJobs } = require("../scrapers/seenJobs");
 const { isPremium } = require("../scrapers/premium");
 const { Telegraf } = require("telegraf");
 
-const bot = require("./bot");
+const bot = require("../bot");
 
 async function detectNewJobs() {
   const jobs = await scrapeJobs();
