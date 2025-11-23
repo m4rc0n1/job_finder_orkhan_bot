@@ -6,7 +6,7 @@ telegraf -> Telegram bot core
 */
 require("dotenv").config();
 
-const bot = new Telegraf(process.env.BOT_TOKEN);
+const bot = require("./bot");
 const express = require("express");
 
 const app = express();
