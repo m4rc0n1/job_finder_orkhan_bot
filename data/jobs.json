@@ -8,11 +8,7 @@
     "salary": "2000",
     "seniority": "Mid-level",
     "description": "Work on UI components with React.",
-    "tags": [
-      "javascript",
-      "react",
-      "frontend"
-    ]
+    "tags": ["javascript", "react", "frontend"]
   },
   {
     "id": "2",
@@ -23,11 +19,7 @@
     "salary": "3000",
     "seniority": "Senior",
     "description": "Build scalable backend services.",
-    "tags": [
-      "node",
-      "aws",
-      "backend"
-    ]
+    "tags": ["node", "aws", "backend"]
   },
   {
     "id": "3",
@@ -38,11 +30,7 @@
     "salary": "3500",
     "seniority": "Junior",
     "description": "Maintain API and frontend UI.",
-    "tags": [
-      "fullstack",
-      "react",
-      "node"
-    ]
+    "tags": ["fullstack", "react", "node"]
   },
   {
     "id": "4",
@@ -53,11 +41,7 @@
     "salary": "4500",
     "seniority": "Mid-level",
     "description": "Manage CI/CD pipelines.",
-    "tags": [
-      "devops",
-      "aws",
-      "ci/cd"
-    ]
+    "tags": ["devops", "aws", "ci/cd"]
   },
   {
     "id": "5",
@@ -68,11 +52,7 @@
     "salary": "4000",
     "seniority": "Senior",
     "description": "Build automation frameworks.",
-    "tags": [
-      "qa",
-      "selenium",
-      "automation"
-    ]
+    "tags": ["qa", "selenium", "automation"]
   },
   {
     "id": "6",
@@ -83,11 +63,7 @@
     "salary": "3200",
     "seniority": "Junior",
     "description": "Design user-friendly interfaces.",
-    "tags": [
-      "ui",
-      "ux",
-      "figma"
-    ]
+    "tags": ["ui", "ux", "figma"]
   },
   {
     "id": "7",
@@ -98,10 +74,17 @@
     "salary": "3200",
     "seniority": "Junior",
     "description": "Design user-friendly interfaces.",
-    "tags": [
-      "ui",
-      "ux",
-      "figma"
-    ]
+    "tags": ["ui", "ux", "figma"]
+  },
+  {
+    "id": "8",
+    "title": "UI/UX Designer Intern",
+    "company": "Figma",
+    "location": "Remote",
+    "link": "https://company.com/job-6",
+    "salary": "3428",
+    "seniority": "Junior",
+    "description": "Design user-friendly interfaces.",
+    "tags": ["ui", "ux", "figma"]
   }
 ]
